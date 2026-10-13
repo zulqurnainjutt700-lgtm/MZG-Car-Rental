@@ -1,0 +1,2 @@
+try{process.loadEnvFile('.env');}catch(e){if(e.code!=='ENOENT')throw e;}
+require('./mailer.cjs').createMailer().verify().then(()=>console.log('SMTP connection verified. Send an actual verification/reset email from the website to check inbox delivery.')).catch(()=>{console.error('SMTP connection unavailable. Check local SMTP settings, sender verification and provider credentials.');process.exitCode=1;});

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "nodemailer": "10.1.0",
+    "sharp": "0.35.5"
+  },
+  "name": "mzg-car-rental",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node verify-site.cjs && node verify-hero.cjs && node verify-auth.cjs",
+    "check:smtp": "node check-smtp.cjs"
+  }
+}

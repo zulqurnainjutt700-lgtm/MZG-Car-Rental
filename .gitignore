@@ -1,0 +1,7 @@
+.private/
+.npm-cache/
+.env
+.env.*
+!.env.example
+node_modules/
+.auth-test-*/

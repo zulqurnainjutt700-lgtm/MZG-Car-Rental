@@ -1,0 +1,17 @@
+{
+  "effectiveDate": "2026-10-12",
+  "includedKmPerDay": 200,
+  "depositRefundBusinessDays": 7,
+  "cancellationNoticeHours": 24,
+  "rentalDayHours": 24,
+  "returnGraceMinutes": 60,
+  "minimumAge": 21,
+  "licenceHeldYears": 1,
+  "categories": {
+    "Economy": { "deposit": 20000, "extraKm": 20 },
+    "Sedan": { "deposit": 30000, "extraKm": 25 },
+    "SUV": { "deposit": 50000, "extraKm": 40 },
+    "Premium": { "deposit": 100000, "extraKm": 60 },
+    "MPV": { "deposit": 50000, "extraKm": 40 }
+  }
+}
